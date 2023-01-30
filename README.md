@@ -2,7 +2,6 @@
 
 ## Introduction
 The goal is to develop a small exchange app which make simple currency conversion.
-The user submits the image using his camera or a photo from his library, the app will submit the image to plant.net API and display a list containing the results to the user.
 
  It has three screens:
  - Screen#1
@@ -21,7 +20,7 @@ The user submits the image using his camera or a photo from his library, the app
 This project is build using the VIPER design pattern.
 
 ## VIPER Component
-    - View
+- View
     Class that has all the code to show the app interface to the user and get their responses. Upon receiving a response View alerts the Presenter.
     - Interactor
     Has the business logic of an app. e.g if business logic depends on making network calls then it is Interactor’s responsibility to do so.
